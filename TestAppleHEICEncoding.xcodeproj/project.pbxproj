@@ -11,6 +11,8 @@
 		32BE2B942BEA3FF8004183CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BE2B932BEA3FF8004183CA /* ContentView.swift */; };
 		32BE2B962BEA3FF9004183CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32BE2B952BEA3FF9004183CA /* Assets.xcassets */; };
 		32BE2B9A2BEA3FF9004183CA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32BE2B992BEA3FF9004183CA /* Preview Assets.xcassets */; };
+		32BE2BA12BEA401B004183CA /* Encoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BE2BA02BEA401B004183CA /* Encoder.swift */; };
+		32BE2BA42BEA41AC004183CA /* TestImage.heic in Resources */ = {isa = PBXBuildFile; fileRef = 32BE2BA32BEA41AC004183CA /* TestImage.heic */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		32BE2B952BEA3FF9004183CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32BE2B972BEA3FF9004183CA /* TestAppleHEICEncoding.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TestAppleHEICEncoding.entitlements; sourceTree = "<group>"; };
 		32BE2B992BEA3FF9004183CA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		32BE2BA02BEA401B004183CA /* Encoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encoder.swift; sourceTree = "<group>"; };
+		32BE2BA32BEA41AC004183CA /* TestImage.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = TestImage.heic; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +58,10 @@
 			children = (
 				32BE2B912BEA3FF8004183CA /* TestAppleHEICEncodingApp.swift */,
 				32BE2B932BEA3FF8004183CA /* ContentView.swift */,
+				32BE2BA02BEA401B004183CA /* Encoder.swift */,
 				32BE2B952BEA3FF9004183CA /* Assets.xcassets */,
 				32BE2B972BEA3FF9004183CA /* TestAppleHEICEncoding.entitlements */,
+				32BE2BA22BEA41AC004183CA /* Images */,
 				32BE2B982BEA3FF9004183CA /* Preview Content */,
 			);
 			path = TestAppleHEICEncoding;
@@ -67,6 +73,14 @@
 				32BE2B992BEA3FF9004183CA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		32BE2BA22BEA41AC004183CA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				32BE2BA32BEA41AC004183CA /* TestImage.heic */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +143,7 @@
 			files = (
 				32BE2B9A2BEA3FF9004183CA /* Preview Assets.xcassets in Resources */,
 				32BE2B962BEA3FF9004183CA /* Assets.xcassets in Resources */,
+				32BE2BA42BEA41AC004183CA /* TestImage.heic in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +156,7 @@
 			files = (
 				32BE2B942BEA3FF8004183CA /* ContentView.swift in Sources */,
 				32BE2B922BEA3FF8004183CA /* TestAppleHEICEncodingApp.swift in Sources */,
+				32BE2BA12BEA401B004183CA /* Encoder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
